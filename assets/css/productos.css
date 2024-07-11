@@ -1,0 +1,50 @@
+.novoMenu {
+    box-shadow: 0 2px 0 0 rgb(0, 0, 0, 0.1);
+}
+
+.novoMenu nav li a {
+    color: var(--cor-btn-fonte);
+}
+
+.linha2 {
+    margin: 100px auto 50px;
+    justify-content: space-between;
+}
+
+.linha2 h2 {
+    margin-right: 20px;
+}
+
+.linha2 select {
+    padding: 5px;
+    color: 1px solid var(--cor-padrao);
+}
+
+.linha2 select:focus {
+    outline: none;
+}
+
+.productos {
+    display: flex;
+    flex-direction: column;
+}
+
+.paginacao {
+    margin: 20px auto;
+}
+
+.paginacao span {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid var(--cor-padrao);
+    text-align: center;
+    line-height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.paginacao span:hover {
+    background-color: var(--cor-padrao);
+    color: var(--cor-fonte);
+}

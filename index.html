@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Virtual</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/banner.css">
+    <link rel="stylesheet" href="assets/css/categorias.css">
+    <!-- <link rel="stylesheet" href="assets/css/productos.css"> -->
+    <link rel="stylesheet" href="assets/css/ofertas.css">
+    <link rel="stylesheet" href="assets/css/depoimentos.css">
+    <link rel="stylesheet" href="assets/css/marcas.css">
+    <link rel="stylesheet" href="assets/css/rodape.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+</head>
+<body>
+    <section class="banner">
+        <div class="container">
+            <!-- START OF NAVBAR -->
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="assets/img/logo.png" alt="" width="125px"></a> <!--Alterar o alt-->
+                </div>
+
+                <nav>
+                    <ul id="menuItens">
+                        <li><a href="index.html" title="">Início</a></li>
+                        <li><a href="productos.html" title="">Productos</a></li>
+                        <li><a href="sobre.html" title="">Sobre</a></li>
+                        <li><a href="contactos.html" title="">Contactos</a></li>
+                        <li><a href="minha-conta.html" title="">Minha Conta</a></li>
+                    </ul>
+                </nav>
+
+                <a href="carrinho.html" title="">
+                    <img src="assets/img/carrinho.png" alt="carrinho-de-compras" width="30px" height="30px"> 
+                </a>
+                <img src="assets/img/menu.png" alt="menu-hamburguinho" class="menu-celular" onclick="menucelular()">
+            </div>
+            <!-- END OF NAVBAR -->
+
+            <!-- START OF BANNER TEXT -->
+            <div class="linha">
+                <div class="col-2">
+                    <h1>Escolha um novo <br> estilo de vida!</h1>
+                    <p>Lorem ipsum dolor sit amet <br> and typesetting industry.</p>
+                    <br><a href="#" class="btn">Mais informações &#8594;</a>
+                </div>
+
+                <div class="col-2">
+                    <img src="assets/img/banner-1.png" alt="">
+                </div>
+            </div>
+            <!-- END OF BANNER TEXT -->
+        </div>
+    </section>
+
+    <!-- START OF FEATURED CATEGORIES -->
+    <section class="categorias">
+        <div class="corpo-categorias">
+            <div class="linha">
+                <div class="col-3">
+                    <img src="assets/img/categoria-1.jpg" alt=""> <!-- alterar o alt-->
+                </div>
+                <div class="col-3">
+                    <img src="assets/img/categoria-2.jpg" alt=""> <!-- alterar o alt-->
+                </div>
+                <div class="col-3">
+                    <img src="assets/img/categoria-3.jpg" alt=""> <!-- alterar o alt-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OF FEATURED CATEGORIES -->
+
+    <!-- START OF FEATURED PRODUCTS -->
+    <section class="productos">
+        <section class="corpo-categorias">
+            <h2 class="titulo">Productos em Destaque</h2>
+    
+            <!--  INÍCIO LINHA DO CORPPO DOS PRODUCTOS EM DESTAQUE-->
+            <div class="linha">
+                <!-- INÍCIO ITEM PRODUCTOS EM DESTAQUE -->
+                <div class="col-4">
+                    <a href="ver-producto.html" title="">
+                        <img src="assets/img/produto-1.jpg" alt="">
+                    </a>
+                    <h4>Curso Cobranças</h4>
+                    <div class="classificacao">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+                    <p>R$ 997,90</p>
+                </div>
+                <!-- FIM ITEM PRODUCTOS EM DESTAQUE -->
+    
+                <!-- INÍCIO ITEM PRODUCTOS EM DESTAQUE -->
+                <div class="col-4">
+                    <a href="ver-producto.html" title="">
+                        <img src="assets/img/produto-2.jpg" alt="">
+                    </a>
+                    <h4>Curso Cobranças</h4>
+                    <div class="classificacao">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+                    <p>R$ 997,90</p>
+                </div>
+                <!-- FIM ITEM PRODUCTOS EM DESTAQUE -->
+    
+                <!-- INÍCIO ITEM PRODUCTOS EM DESTAQUE -->
+                <div class="col-4">
+                    <a href="ver-producto.html" title="">
+                        <img src="assets/img/produto-3.jpg" alt="">
+                    </a>
+                    <h4>Curso Cobranças</h4>
+                    <div class="classificacao">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+                    <p>R$ 997,90</p>
+                </div>
+                <!-- FIM ITEM PRODUCTOS EM DESTAQUE -->
+    
+                <!-- INÍCIO ITEM PRODUCTOS EM DESTAQUE -->
+                <div class="col-4">
+                    <a href="ver-producto.html" title="">
+                        <img src="assets/img/produto-4.jpg" alt="">
+                    </a>
+                    <h4>Curso Cobranças</h4>
+                    <div class="classificacao">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+                    <p>R$ 997,90</p>
+                </div>
+                <!-- FIM ITEM PRODUCTOS EM DESTAQUE -->
+            </div>
+            <!-- FIM LINHA DOS PRODUCTOS EM DESTAQUE -->
+       
+            <h2 class="titulo">Novos Productos</h2>
+    
+            <!--  INÍCIO LINHA DO CORPPO DOS NOVOS PRODUCTOS-->
+            <div class="linha">
+                <!-- INÍCIO ITEM DOS NOVOS PRODUCTOS -->
+                <div class="col-4">
+                    <a href="ver-producto.html" title="">
+                        <img src="assets/img/produto-5.jpg" alt="">
+                    </a>
+                    <h4>Curso Cobranças</h4>
+                    <div class="classificacao">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+                    <p>R$ 997,90</p>
+                </div>
+                <!-- FIM ITEM DOS NOVOS PRODUCTOS  -->
+    
+                <!-- INÍCIO ITEM DOS NOVOS PRODUCTOS  -->
+                <div class="col-4">
+                    <a href="ver-producto.html" title="">
+                        <img src="assets/img/produto-6.jpg" alt="">
+                    </a>
+                    <h4>Curso Cobranças</h4>
+                    <div class="classificacao">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+                    <p>R$ 997,90</p>
+                </div>
+                <!-- FIM ITEM DOS NOVOS PRODUCTOS  -->
+    
+                <!-- INÍCIO ITEM DOS NOVOS PRODUCTOS -->
+                <div class="col-4">
+                    <a href="ver-producto.html" title="">
+                        <img src="assets/img/produto-7.jpg" alt="">
+                    </a>
+                    <h4>Curso Cobranças</h4>
+                    <div class="classificacao">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+                    <p>R$ 997,90</p>
+                </div>
+                <!-- FIM ITEM DOS NOVOS PRODUCTOS -->
+    
+                <!-- INÍCIO ITEM DOS NOVOS PRODUCTOS -->
+                <div class="col-4">
+                    <a href="ver-producto.html" title="">
+                        <img src="assets/img/produto-8.jpg" alt="">
+                    </a>
+                    <h4>Curso Cobranças</h4>
+                    <div class="classificacao">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+                    <p>R$ 997,90</p>
+                </div>
+                <!-- FIM ITEM DOS NOVOS PRODUCTOS -->
+
+                <!-- INÍCIO ITEM DOS NOVOS PRODUCTOS -->
+                <div class="col-4">
+                    <a href="ver-producto.html" title="">
+                        <img src="assets/img/produto-9.jpg" alt="">
+                    </a>
+                    <h4>Curso Cobranças</h4>
+                    <div class="classificacao">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+                    <p>R$ 997,90</p>
+                </div>
+                <!-- FIM ITEM DOS NOVOS PRODUCTOS -->
+
+                <!-- INÍCIO ITEM DOS NOVOS PRODUCTOS -->
+                <div class="col-4">
+                    <a href="ver-producto.html" title="">
+                        <img src="assets/img/produto-10.jpg" alt="">
+                    </a>
+                    <h4>Curso Cobranças</h4>
+                    <div class="classificacao">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+                    <p>R$ 997,90</p>
+                </div>
+                <!-- FIM ITEM DOS NOVOS PRODUCTOS -->
+    
+                <!-- INÍCIO ITEM DOS NOVOS PRODUCTOS -->
+                <div class="col-4">
+                    <a href="ver-producto.html" title="">
+                        <img src="assets/img/produto-11.jpg" alt="">
+                    </a>
+                    <h4>Curso Cobranças</h4>
+                    <div class="classificacao">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+                    <p>R$ 997,90</p>
+                </div>
+                <!-- FIM ITEM DOS NOVOS PRODUCTOS -->
+    
+                <!-- INÍCIO ITEM DOS NOVOS PRODUCTOS -->
+                <div class="col-4">
+                    <a href="ver-producto.html" title="">
+                        <img src="assets/img/produto-12.jpg" alt="">
+                    </a>
+                    <h4>Curso Cobranças</h4>
+                    <div class="classificacao">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+                    <p>R$ 997,90</p>
+                </div>
+                <!-- FIM ITEM DOS NOVOS PRODUCTOS -->
+            </div>
+            <!-- FIM LINHA DOS DOS NOVOS PRODUCTOS -->
+        </section>
+        <!-- FIM DOS NOVOS PRODUCTOS -->
+    </section>
+    <!-- END OF FEATURED PRODUCTS -->
+
+    <!-- START OF OFFERS-->
+    <section class="ofertas">
+        <div class="corpo-categorias">
+            <div class="linha">
+                <div class="col-2">
+                    <img src="assets/img/banner-2.png" alt="" class="oferta-img">
+                </div>
+                <div class="col-2">
+                    <p>Producto exclusivo da loja insidePc</p>
+                    <h1>Curso Plataforma de Streaming</h1>
+                    <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo laudantium sint, quaerat tempora velit at. Facere enim iure</small>
+                    <br> <br> <a href="#" class="btn">Comprar agora &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OF OFFERS -->
+
+    <!-- START OF TESTIMONIALS -->
+    <section class="depoimentos">
+        <div class="corpo-categorias">
+            <div class="linha">
+                <!-- INÍCIO ITEM DE DEPOIMENTOS-->
+                <div class="col-3">
+                    <ion-icon name="ribbon" class="depoimento-icone"></ion-icon>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio laudantium provident accusamus repellendus nostrum exercitationem commodi? Iusto dolore fugit ipsa hic modi consectetur perferendis, ut est aliquam</p>
+                    <div class="classificacao">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+                    <img src="assets/img/cliente-1.png" alt="">
+                    <h3>Fulano Sicrano</h3>
+                </div>
+                <!-- FIM ITEM DE DEPOIMENTOS-->
+
+                <!-- INÍCIO ITEM DE DEPOIMENTOS-->
+                <div class="col-3">
+                    <ion-icon name="ribbon" class="depoimento-icone"></ion-icon>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio laudantium provident accusamus repellendus nostrum exercitationem commodi? Iusto dolore fugit ipsa hic modi consectetur perferendis, ut est aliquam</p>
+                    <div class="classificacao">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+                    <img src="assets/img/cliente-2.png" alt="">
+                    <h3>Fulano Sicrano</h3>
+                </div>
+                <!-- FIM ITEM DE DEPOIMENTOS-->
+
+                <!-- INÍCIO ITEM DE DEPOIMENTOS-->
+                <div class="col-3">
+                    <ion-icon name="ribbon" class="depoimento-icone"></ion-icon>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio laudantium provident accusamus repellendus nostrum exercitationem commodi? Iusto dolore fugit ipsa hic modi consectetur perferendis, ut est aliquam</p>
+                    <div class="classificacao">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                    </div>
+                    <img src="assets/img/cliente-3.png" alt="">
+                    <h3>Fulano Sicrano</h3>
+                </div>
+                <!-- FIM ITEM DE DEPOIMENTOS-->
+            </div>
+        </div>
+    </section>
+    <!-- END OF TESTIMONIALS -->
+
+    <!-- START OF BRANDS -->
+    <section class="marcas">
+        <div class="corpo-categorias">
+            <div class="linha">
+                <div class="col-5">
+                    <img src="assets/img/marca-1.png" alt="">
+                </div>
+
+                <div class="col-5">
+                    <img src="assets/img/marca-2.png" alt="">
+                </div>
+
+                <div class="col-5">
+                    <img src="assets/img/marca-3.png" alt="">
+                </div>
+
+                <div class="col-5">
+                    <img src="assets/img/marca-4.png" alt="">
+                </div>
+
+                <div class="col-5">
+                    <img src="assets/img/marca-5.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END OF BRANDS -->
+
+    <!-- START OF FOOTER -->
+    <section class="rodape">
+        <div class="container">
+            <div class="linha">
+                <div class="rodape-col-1">
+                    <h3>Baixe o nosso app</h3>
+                    <p>Baixe nosso aplicativo nas melhores plataformas</p>
+                    <div class="app-logo">
+                        <img src="assets/img/google.png" alt="">
+                        <img src="assets/img/apple.png" alt="">
+                    </div>
+                </div>
+                <div class="rodape-col-2">
+                    <img src="assets/img/logo-2.png" alt="">
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, quisquam.</p>
+                </div>
+                <div class="rodape-col-3">
+                    <h3>Mais informações</h3>
+                    <ul>
+                        <li>Cupons</li>
+                        <li>Blog</li>
+                        <li>Política de Privacidade</li>
+                        <li>Contactos</li>
+                    </ul>
+                </div>
+                <div class="rodape-col-4">
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                        <li>Twitter</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <p class="direitos">
+            &#160; Todos os direitos reservados a insidePc
+        </p>
+    </section>
+    <!-- END OF FOOTER -->
+
+    <script type="módulo" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

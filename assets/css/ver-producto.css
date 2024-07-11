@@ -1,0 +1,75 @@
+/* ---------- DETALHES DO PRODUCTO ---------- */
+
+.ver-producto {
+    margin-top: 40px;
+}
+
+.ver-producto .col-2 img {
+    width: 100%;
+    padding: 0;
+}
+
+.ver-producto img#productoImg {
+    max-width: 600px;
+    height: 450px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.ver-producto .col-2 {
+    padding: 20px;
+    flex: 1;
+}
+
+.ver-producto h4 {
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.ver-producto select {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid var(--cor-padrao);
+}
+
+.ver-producto select:focus,
+.ver-producto input:focus {
+    outline: none;
+}
+
+.ver-producto input {
+    width: 50px;
+    height: 40px;
+    margin-right: 10px;
+    padding-left: 10px;
+    font-size: 20px;
+    border: 1px solid var(--cor-padrao);
+}
+
+.ver-producto .btn {
+    border: none;
+    background-color: var(--cor-padrao);
+    height: 42px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.ver-producto .btn:hover {
+    background-color: var(--cor-btn-hover);
+}
+
+.ver-producto p {
+    font-size: 13px;
+}
+
+.img-linha {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}

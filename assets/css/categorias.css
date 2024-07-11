@@ -1,0 +1,10 @@
+.categorias {
+    margin: 70px 0;
+}
+
+.corpo-categorias {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}

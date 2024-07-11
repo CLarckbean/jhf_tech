@@ -1,0 +1,98 @@
+/* ---------- MENU CELULAR ---------- */
+
+@media only screen and (max-width: 870px) {
+    nav ul {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        background-color: var(--cor-btn-fonte);
+        width: 100%;
+        overflow: hidden;
+        transition: height .5s;
+    }
+
+    nav ul li a {
+        color: --cor-fonte;
+    }
+
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+        margin-right: 50px;
+        margin-bottom: 10px;
+    }
+
+    .novoMenu nav li a {
+        color: var(--cor-fonte);
+    }
+
+    .menu-celular {
+        display: block;
+        cursor: pointer;
+    }   
+
+    .rodape-col-1, .rodape-col-2,
+    .rodape-col-3, .rodape-col-4 {
+        min-width: 250px;
+        text-align: center;
+    }
+
+    .rodape .linha {
+        text-align: center;
+    }
+
+    .ver-producto .col-2 {
+        margin: 20px 0;
+    }
+
+    .ver-producto .linha {
+        text-align: left;
+    }
+
+    .ver-producto h1 {
+        font-size: 26px;
+        line-height: 26px;
+    }
+
+    .info-carrinho p {
+        display: none;
+    }
+}
+
+/* Até 600px */
+
+@media only screen and (max-width: 600px) {
+    .linha {
+        text-align: center;
+    }       
+
+    .rodape .linha {
+        justify-content: space-around;
+    }
+
+    .col-2, .col-3, .col-4 {
+        flex-basis: 70%;
+    }
+
+    .col-2 h1 {
+        font-size: 27px;
+    }
+
+    .rodape-col-3, .rodape-col-4 {
+        text-align: center;
+    }
+
+    .col-4 {
+        font-size: 24px;
+    }
+}
+
+/* Até 400px */
+
+@media only screen and (max-width: 400px) {
+    .linha2 h2 {
+        font-size: 24px;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+}

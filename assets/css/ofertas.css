@@ -1,0 +1,13 @@
+.ofertas {
+    background: radial-gradient(var(--cor-padrao-hover), var(--cor-padrao));
+    margin-top: 80px;
+    padding: 30px 0;
+}
+
+.col-2 .oferta-img {
+    padding: 50px;
+}
+
+.small {
+    color: var(--cor-btn-fonte);
+}
