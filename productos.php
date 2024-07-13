@@ -1,44 +1,6 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/banner.css">
-    <link rel="stylesheet" href="assets/css/categorias.css">
-    <link rel="stylesheet" href="assets/css/productos.css">
-    <link rel="stylesheet" href="assets/css/rodape.css">
-    <link rel="stylesheet" href="assets/css/media.css">
-</head>
-<body>
-    <section class="novoMenu">
-        <div class="container">
-            <div class="navbar">
-                <div class="logo">
-                    <a href="index.html"><img src="assets/img/logoEscura.png" alt="" width="125px"></a> <!--Alterar o alt-->
-                </div>
-
-                <nav>
-                    <ul id="menuItens">
-                        <li><a href="index.html" title="">Início</a></li>
-                        <li><a href="productos.html" title="">Productos</a></li>
-                        <li><a href="sobre.html" title="">Sobre</a></li>
-                        <li><a href="contactos.html" title="">Contactos</a></li>
-                        <li><a href="minha-conta.html" title="">Minha Conta</a></li>
-                    </ul>
-                </nav>
-
-                <a href="carrinho.html" title="">
-                    <img src="assets/img/carrinho2.png" alt="carrinho-de-compras" width="30px" height="30px"> 
-                </a>
-                <img src="assets/img/menu.png" alt="menu-hamburguinho" class="menu-celular" onclick="menucelular()">
-            </div>
-        </div>
-    </section>
-
-    <!-- START OF FEATURED PRODUCTS -->
-    <section class="productos">
+<?php require_once('header.php')?>
+<!-- START OF FEATURED PRODUCTS -->
+<section class="productos">
         <div class="corpo-categorias">
             <div class="linha linha2">
                 <h2>Todos</h2>
@@ -246,53 +208,4 @@
     </section>
     <!-- END OF FEATURED PRODUCTS -->
 
-    <!-- START OF FOOTER -->
-    <section class="rodape">
-        <div class="container">
-            <div class="linha">
-                <div class="rodape-col-1">
-                    <h3>Baixe o nosso app</h3>
-                    <p>Baixe nosso aplicativo nas melhores plataformas</p>
-                    <div class="app-logo">
-                        <img src="assets/img/google.png" alt=""> <!-- alterar o alt -->
-                        <img src="assets/img/apple.png" alt=""> <!-- alterar o alt -->
-                    </div>
-                </div>
-                <div class="rodape-col-2">
-                    <img src="assets/img/logo-2.png" alt=""> <!-- alterar o alt -->
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio, quisquam.</p>
-                </div>
-                <div class="rodape-col-3">
-                    <h3>Mais informações</h3>
-                    <ul>
-                        <li>Cupons</li>
-                        <li>Blog</li>
-                        <li>Política de Privacidade</li>
-                        <li>Contactos</li>
-                    </ul>
-                </div>
-                <div class="rodape-col-4">
-                    <h3>Redes Sociais</h3>
-                    <ul>
-                        <li>Facebook</li>
-                        <li>Instagram</li>
-                        <li>YouTube</li>
-                        <li>Twitter</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <hr>
-
-        <p class="direitos">
-            &#160; Todos os direitos reservados a insidePc
-        </p>
-    </section>
-    <!-- END OF FOOTER -->
-
-    <script type="módulo" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script src="assets/js/app.js"></script>
-</body>
-</html>
+<?php require_once('footer.php')?>
