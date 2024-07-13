@@ -16,7 +16,7 @@
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <a href="index.html"><img src="assets/img/logoEscura.png" alt="" width="125px"></a> <!--Alterar o alt-->
+                    <a href="index.php"><img src="assets/img/logoEscura.png" alt="" width="125px"></a> <!--Alterar o alt-->
                 </div>
 
                 <nav>
@@ -30,7 +30,7 @@
                 </nav>
                 <!-- fim menu navegação -->
 
-                <a href="carrinho.html" title="">
+                <a href="carrinho.php" title="">
                     <img src="assets/img/carrinho2.png" alt="carrinho-de-compras" width="30px" height="30px"> 
                 </a>
                 <img src="assets/img/menu.png" alt="menu-hamburguinho" class="menu-celular" onclick="menucelular()">
