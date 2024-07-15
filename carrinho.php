@@ -74,7 +74,7 @@
                             <img src="assets/img/carrinho/carrinho-3.jpg" alt="">
                             <div>
                                 <p>Curso Loja Virtual</p>
-                                <small>Valor: 777</small>
+                                <small>Valo r: 777 Kzs</small>
                                 <br>
                                 <a href="#" title="">Remover</a>
                             </div>
@@ -85,7 +85,7 @@
                             <input type="number" name="" id="" value="1">
                         </form>
                     </td>
-                    <td>R$ 777</td>
+                    <td>777 Kzs</td>
                 </tr>
                 <!-- INÍCIO ITEM DO CARRINHO -->
             </tbody>
@@ -98,17 +98,17 @@
                 <tbody>
                     <tr>
                         <td>Sub-Total</td>
-                        <td>R$ 700</td>
+                        <td>700 Kzs</td>
                     </tr>
 
                     <tr>
                         <td>Frete</td>
-                        <td>R$ 77</td>
+                        <td>77Kzs</td>
                     </tr>
 
                     <tr>
                         <td>Total</td>
-                        <td>R$ 777</td>
+                        <td>777 Kzs</td>
                     </tr>
                 </tbody>
             </table>
