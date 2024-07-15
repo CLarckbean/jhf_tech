@@ -30,7 +30,7 @@
                             <img src="assets/img/carrinho/carrinho-1.jpg" alt="">
                             <div>
                                 <p>Curso Loja Virtual</p>
-                                <small>Valor: R$ 777</small>
+                                <small>Valor: 777 Kzs</small>
                                 <br>
                                 <a href="#" title="">Remover</a>
                             </div>
@@ -41,7 +41,7 @@
                             <input type="number" name="" id="" value="1">
                         </form>
                     </td>
-                    <td>R$ 777</td>
+                    <td>777 Kzs</td>
                 </tr>
                 <!-- INÍCIO ITEM DO CARRINHO -->
 
@@ -52,7 +52,7 @@
                             <img src="assets/img/carrinho/carrinho-2.jpg" alt="">
                             <div>
                                 <p>Curso Loja Virtual</p>
-                                <small>Valor: R$ 777</small>
+                                <small>Valor: 777 Kzs</small>
                                 <br>
                                 <a href="#" title="">Remover</a>
                             </div>
@@ -63,7 +63,7 @@
                             <input type="number" name="" id="" value="1">
                         </form>
                     </td>
-                    <td>R$ 777</td>
+                    <td>777 Kzs</td>
                 </tr>
                 <!-- INÍCIO ITEM DO CARRINHO -->
 
@@ -74,7 +74,7 @@
                             <img src="assets/img/carrinho/carrinho-3.jpg" alt="">
                             <div>
                                 <p>Curso Loja Virtual</p>
-                                <small>Valor: R$ 777</small>
+                                <small>Valor: 777</small>
                                 <br>
                                 <a href="#" title="">Remover</a>
                             </div>
