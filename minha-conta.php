@@ -16,14 +16,14 @@
                             <hr id="indicador">
                         </div>
 
-                        <form action="assets/php/login.php" method="post" id="entrarPainel">
+                        <form action="login.php" method="post" id="entrarPainel">
                             <input type="text" name="email" id="" placeholder="E-mail de acesso">
                             <input type="password" name="senha" id="" placeholder="Digite sua senha">
                             <button type="submit" name="sendEntrar" class="btn">Entrar</button>
                             <a href="" title="">Esqueceu sua senha?</a>
                         </form>
 
-                        <form action="assets/php/create.php" method="post" id="cadastroSite">
+                        <form action="registro.php" method="post" id="cadastroSite">
                             <input type="text" name="nome" id="" placeholder="Nome Completo">
                             <input type="text" name="email" id="" placeholder="E-mail de acesso">
                             <input type="password" name="senha" id="" placeholder="Digite sua senha">

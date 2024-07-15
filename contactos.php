@@ -22,7 +22,7 @@
                             <span class="cadastro">Cadastro</span>
                         </div>
 
-                        <form action="" method="post" id="cadastroSite">
+                        <form action="registro.php" method="post" id="cadastroSite">
                             <input type="text" name="nome" id="" placeholder="Nome Completo">
                             <input type="tel" name="tel" id="" placeholder="Número de telefone">
                             <input type="text" name="nome" id="" placeholder="E-mail de acesso">
