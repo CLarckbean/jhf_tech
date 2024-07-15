@@ -15,9 +15,7 @@
             <div class="linha">
                 <!-- INÍCIO ITEM PRODUCTOS EM DESTAQUE -->
                 <div class="col-4">
-                <a href="ver-producto.php" title="">
-                        <img src="assets/img/produto-1.jpg" alt="">
-                    </a>
+                    <img src="assets/img/produto-1.jpg" alt=""> <!-- alterar o alt -->
                     <h4>Curso Cobranças</h4>
                     <div class="classificacao">
                         <ion-icon name="star"></ion-icon>
@@ -32,9 +30,7 @@
     
                 <!-- INÍCIO ITEM PRODUCTOS EM DESTAQUE -->
                 <div class="col-4">
-                <a href="ver-producto.php" title="">
-                        <img src="assets/img/produto-2.jpg" alt="">
-                    </a>
+                    <img src="assets/img/produto-2.jpg" alt=""> <!-- alterar o alt -->
                     <h4>Curso Cobranças</h4>
                     <div class="classificacao">
                         <ion-icon name="star"></ion-icon>
@@ -49,9 +45,7 @@
     
                 <!-- INÍCIO ITEM PRODUCTOS EM DESTAQUE -->
                 <div class="col-4">
-                <a href="ver-producto.php" title="">
-                        <img src="assets/img/produto-3.jpg" alt="">
-                    </a>
+                    <img src="assets/img/produto-3.jpg" alt=""> <!-- alterar o alt -->
                     <h4>Curso Cobranças</h4>
                     <div class="classificacao">
                         <ion-icon name="star"></ion-icon>
@@ -66,9 +60,7 @@
     
                 <!-- INÍCIO ITEM PRODUCTOS EM DESTAQUE -->
                 <div class="col-4">
-                <a href="ver-producto.php" title="">
-                        <img src="assets/img/produto-4.jpg" alt="">
-                    </a>
+                    <img src="assets/img/produto-4.jpg" alt=""> <!-- alterar o alt -->
                     <h4>Curso Cobranças</h4>
                     <div class="classificacao">
                         <ion-icon name="star"></ion-icon>
@@ -83,9 +75,7 @@
 
                 <!-- INÍCIO ITEM DOS NOVOS PRODUCTOS -->
                 <div class="col-4">
-                <a href="ver-producto.php" title="">
-                        <img src="assets/img/produto-5.jpg" alt="">
-                    </a>
+                    <img src="assets/img/produto-5.jpg" alt=""> <!-- alterar o alt -->
                     <h4>Curso Cobranças</h4>
                     <div class="classificacao">
                         <ion-icon name="star"></ion-icon>
@@ -100,9 +90,7 @@
     
                 <!-- INÍCIO ITEM DOS NOVOS PRODUCTOS  -->
                 <div class="col-4">
-                <a href="ver-producto.php" title="">
-                        <img src="assets/img/produto-6.jpg" alt="">
-                    </a>
+                    <img src="assets/img/produto-6.jpg" alt=""> <!-- alterar o alt -->
                     <h4>Curso Cobranças</h4>
                     <div class="classificacao">
                         <ion-icon name="star"></ion-icon>
@@ -117,9 +105,7 @@
     
                 <!-- INÍCIO ITEM DOS NOVOS PRODUCTOS -->
                 <div class="col-4">
-                <a href="ver-producto.php" title="">
-                        <img src="assets/img/produto-7.jpg" alt="">
-                    </a>
+                    <img src="assets/img/produto-7.jpg" alt=""> <!-- alterar o alt -->
                     <h4>Curso Cobranças</h4>
                     <div class="classificacao">
                         <ion-icon name="star"></ion-icon>
@@ -134,9 +120,7 @@
     
                 <!-- INÍCIO ITEM DOS NOVOS PRODUCTOS -->
                 <div class="col-4">
-                <a href="ver-producto.php" title="">
-                        <img src="assets/img/produto-8.jpg" alt="">
-                    </a>
+                    <img src="assets/img/produto-8.jpg" alt=""> <!-- alterar o alt -->
                     <h4>Curso Cobranças</h4>
                     <div class="classificacao">
                         <ion-icon name="star"></ion-icon>
@@ -151,9 +135,7 @@
 
                 <!-- INÍCIO ITEM DOS NOVOS PRODUCTOS -->
                 <div class="col-4">
-                <a href="ver-producto.php" title="">
-                        <img src="assets/img/produto-9.jpg" alt="">
-                    </a>
+                    <img src="assets/img/produto-9.jpg" alt=""> <!-- alterar o alt -->
                     <h4>Curso Cobranças</h4>
                     <div class="classificacao">
                         <ion-icon name="star"></ion-icon>
@@ -168,9 +150,7 @@
 
                 <!-- INÍCIO ITEM DOS NOVOS PRODUCTOS -->
                 <div class="col-4">
-                <a href="ver-producto.php" title="">
-                        <img src="assets/img/produto-10.jpg" alt="">
-                    </a>
+                    <img src="assets/img/produto-10.jpg" alt=""> <!-- alterar o alt -->
                     <h4>Curso Cobranças</h4>
                     <div class="classificacao">
                         <ion-icon name="star"></ion-icon>
@@ -185,9 +165,7 @@
     
                 <!-- INÍCIO ITEM DOS NOVOS PRODUCTOS -->
                 <div class="col-4">
-                <a href="ver-producto.php" title="">
-                        <img src="assets/img/produto-11.jpg" alt="">
-                    </a>
+                    <img src="assets/img/produto-11.jpg" alt=""> <!-- alterar o alt -->
                     <h4>Curso Cobranças</h4>
                     <div class="classificacao">
                         <ion-icon name="star"></ion-icon>
@@ -202,9 +180,7 @@
     
                 <!-- INÍCIO ITEM DOS NOVOS PRODUCTOS -->
                 <div class="col-4">
-                <a href="ver-producto.php" title="">
-                        <img src="assets/img/produto-12.jpg" alt="">
-                    </a>
+                    <img src="assets/img/produto-12.jpg" alt=""> <!-- alterar o alt -->
                     <h4>Curso Cobranças</h4>
                     <div class="classificacao">
                         <ion-icon name="star"></ion-icon>
