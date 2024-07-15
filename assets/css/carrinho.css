@@ -59,3 +59,8 @@ td:last-child {
 th:last-child {
     text-align: right;
 }
+
+.btn_pay{
+    width: 200px;
+    height: 10px;
+}
