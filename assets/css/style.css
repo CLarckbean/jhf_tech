@@ -7,13 +7,13 @@
 }
 
 :root {
-    --cor-padrao: #ff523b;
-    --cor-padrao-hover: #f3b2e5;
+    --cor-padrao: #5e0385;
+    --cor-padrao-hover: #ad61ce;
     --cor-fonte: #fff;
     --cor-fonte-p: #555;
-    --cor-btn: #5b3434;
-    --cor-btn-hover: #15ff00;
-    --cor-btn-fonte: #000;
+    --cor-btn: #000000;
+    --cor-btn-hover: #8f8f8f;
+    --cor-btn-fonte: #000000;
     --cor-fonte-corpo: #555;
     --cor-fonte-corpo-leve: #777;
 }

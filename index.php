@@ -10,8 +10,8 @@
             <!-- START OF BANNER TEXT -->
             <div class="linha">
                 <div class="col-2">
-                    <h1>Escolha um novo <br> estilo de vida!</h1>
-                    <p>Lorem ipsum dolor sit amet <br> and typesetting industry.</p>
+                    <h1>Qualidade e <br> Confiabilidade em Cada Produto</h1>
+                    <p>Qualidade e confiabilidade garantidas, <br>tecnologia de ponta para sua satisfação total.</p>
                     <br><a href="#" class="btn">Mais informações &#8594;</a>
                 </div>
 
