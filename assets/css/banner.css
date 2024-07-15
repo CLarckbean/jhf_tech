@@ -21,7 +21,6 @@ nav {
 nav ul {
     display: inline-block;
     list-style-type: none;
-    z-index: 1;
 }
 
 nav ul li {
