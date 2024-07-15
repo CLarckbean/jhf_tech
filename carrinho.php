@@ -1,4 +1,5 @@
 <?php require_once('header.php')?>
+<link rel="stylesheet" href="assets/css/carrinho.css">
 
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -116,5 +117,9 @@
         <!-- END TOTAL VALUE -->
     </div>
     <!-- END OF SHOPPING CART -->
+
+    <a href="pagamento.php">
+        <button class="btn btn_pay">Fazer Pagamento</button>
+    </a>
 
 <?php require_once('footer.php')?>
