@@ -6,9 +6,7 @@
     <title>Productos</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/banner.css">
-    <link rel="stylesheet" href="assets/css/categorias.css">
     <link rel="stylesheet" href="assets/css/productos.css">
-    <link rel="stylesheet" href="assets/css/rodape.css">
     <link rel="stylesheet" href="assets/css/media.css">
 </head>
 <body>

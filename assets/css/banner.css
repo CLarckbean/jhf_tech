@@ -3,10 +3,6 @@
     min-height: 100vh;
 }
 
-/* .banner .linha {
-    margin-top: 70px;
-} */
-
 .navbar {
     display: flex;
     align-items: center;
@@ -16,6 +12,7 @@
 nav {
     flex: 1;
     text-align: right;
+    background-color: yellow;
 }
 
 nav ul {
