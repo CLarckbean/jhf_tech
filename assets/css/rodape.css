@@ -34,8 +34,7 @@
 }
 
 .rodape-col-2 img {
-    width: 180px;
-    margin-bottom: 20px;
+    width: 100px;
 }
 
 .rodape-col-3, .rodape-col-4 {
@@ -44,8 +43,12 @@
     text-align: right;
 }
 
+.rodape-col-1 p {
+    margin-bottom: 20px;
+}
+
 .app-logo {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .app-logo img {

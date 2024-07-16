@@ -6,7 +6,7 @@
 .navbar {
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 nav {
@@ -38,4 +38,8 @@ nav ul li a {
     width: 28px;
     margin-left: 20px;
     display: none;
+}
+
+a.carrinho-de-compras, .menu-celular{
+    align-self: flex-end;
 }
