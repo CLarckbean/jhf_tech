@@ -2,6 +2,15 @@
     margin: 80px auto;
 }
 
+/* ------- LOGO CARRINHO ------ */
+
+.carrinho-de-compras {
+    background-color: var(--cor-padrao);
+    box-sizing: content-box;
+    border-radius: 50%;
+    padding: 10px;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;

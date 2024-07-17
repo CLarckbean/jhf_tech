@@ -8,6 +8,10 @@
     padding: 50px;
 }
 
+.col-2 + .col-2 {
+    padding-left: 20px;
+}
+
 .small {
     color: var(--cor-btn-fonte);
 }

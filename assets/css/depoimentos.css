@@ -21,6 +21,7 @@
 .depoimentos .col-3 {
     text-align: center;
     padding: 40px 20px;
+    height: 300px;
     box-shadow: 0 0 20px 0 rgb(0, 0, 0, 0.1);
     cursor: pointer;
     transition: transform .5s;

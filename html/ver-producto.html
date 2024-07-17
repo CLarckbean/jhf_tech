@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ver Productos</title>
+    <title>Ver Producto | JHF_tech</title>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/banner.css">
     <link rel="stylesheet" href="../assets/css/categorias.css">
@@ -11,13 +11,18 @@
     <link rel="stylesheet" href="../assets/css/ver-producto.css">
     <link rel="stylesheet" href="../assets/css/rodape.css">
     <link rel="stylesheet" href="../assets/css/media.css">
+    <style>
+        nav ul li:nth-child(2) a {
+            border-bottom: 3px solid black;
+        }
+    </style>
 </head>
 <body>
     <section class="novoMenu">
         <div class="container">
             <div class="navbar">
                 <div class="logo">
-                    <a href="index.html"><img src="../assets/img/logoEscura.png" alt="" width="125px"></a> <!--Alterar o alt-->
+                    <a href="index.html"><img src="../assets/img/logoEscura.png" alt="" width="50px"></a> <!--Alterar o alt-->
                 </div>
 
                 <nav>
@@ -44,50 +49,31 @@
             <div class="col-2">
                 <img src="../assets/img/galeria/galeria-1.jpg" alt="" id="productoImg">
 
-                <!-- INÍCIO ITEM GALERIA -->
-                <div class="img-linha">
-                    <!-- INÍCIO ITEM GALERIA -->
+                <!-- <div class="img-linha">
                     <div class="img-col">
                         <img src="../assets/img/galeria/galeria-1.jpg" alt="" width="100%" class="productoMiniatura">
                     </div>
-                    <!-- FIM ITEM GALERIA -->
 
-                    <!-- INÍCIO ITEM GALERIA -->
                     <div class="img-col">
                         <img src="../assets/img/galeria/galeria-2.jpg" alt="" width="100%" class="productoMiniatura">
                     </div>
-                    <!-- FIM ITEM GALERIA -->
 
-                    <!-- INÍCIO ITEM GALERIA -->
                     <div class="img-col">
                         <img src="../assets/img/galeria/galeria-3.jpg" alt="" width="100%" class="productoMiniatura">
                     </div>
-                    <!-- FIM ITEM GALERIA -->
 
-                    <!-- INÍCIO ITEM GALERIA -->
                     <div class="img-col">
                         <img src="../assets/img/galeria/galeria-4.jpg" alt="" width="100%" class="productoMiniatura">
                     </div>
-                    <!-- FIM ITEM GALERIA -->
-                </div>
-                <!-- FIM ITEM GALERIA -->
+                </div> -->
             </div>
             <div class="col-2">
                 <p>Blusa de frio manga longa</p>
                 <h1>Compra com desconto</h1>
-                <h4>R$ 777</h4>
+                <h4 id="preco-produto">R$ 777</h4>
                 <form action="" method="post">
-                    <select name="" id="">
-                        <option value="">Selecione o Tamanho</option>
-                        <option value="">P</option>
-                        <option value="">M</option>
-                        <option value="">G</option>
-                        <option value="">XG</option>
-                        <option value="">XXG</option>
-                    </select>
-
-                    <input type="number" name="" id="" value="1">
-                    <button type="submit" class="btn">Adicionar ao Carrinho</button>
+                    <input type="number" name="quantidade" id="quantidade" value="1">
+                    <button class="btn" id="adicionarAoCarrinho">Adicionar ao Carrinho</button>
 
                     <h3>Descricão</h3>
                     <p>
@@ -110,7 +96,7 @@
             <div class="linha">
                 <!-- INÍCIO ITEM DOS NOVOS PRODUCTOS -->
                 <div class="col-4">
-                    <img src="../assets/img/produto-9.jpg" alt=""> <!-- alterar o alt -->
+                    <img src="../assets/img/produtos/produto-9.png" alt=""> <!-- alterar o alt -->
                     <h4>Curso Cobranças</h4>
                     <div class="classificacao">
                         <ion-icon name="star"></ion-icon>
@@ -125,7 +111,7 @@
 
                 <!-- INÍCIO ITEM DOS NOVOS PRODUCTOS -->
                 <div class="col-4">
-                    <img src="../assets/img/produto-10.jpg" alt=""> <!-- alterar o alt -->
+                    <img src="../assets/img/produtos/produto-10.png" alt=""> <!-- alterar o alt -->
                     <h4>Curso Cobranças</h4>
                     <div class="classificacao">
                         <ion-icon name="star"></ion-icon>
@@ -140,7 +126,7 @@
     
                 <!-- INÍCIO ITEM DOS NOVOS PRODUCTOS -->
                 <div class="col-4">
-                    <img src="../assets/img/produto-11.jpg" alt=""> <!-- alterar o alt -->
+                    <img src="../assets/img/produtos/produto-11.png" alt=""> <!-- alterar o alt -->
                     <h4>Curso Cobranças</h4>
                     <div class="classificacao">
                         <ion-icon name="star"></ion-icon>
@@ -155,7 +141,7 @@
     
                 <!-- INÍCIO ITEM DOS NOVOS PRODUCTOS -->
                 <div class="col-4">
-                    <img src="../assets/img/produto-12.jpg" alt=""> <!-- alterar o alt -->
+                    <img src="../assets/img/produtos/produto-12.png" alt=""> <!-- alterar o alt -->
                     <h4>Curso Cobranças</h4>
                     <div class="classificacao">
                         <ion-icon name="star"></ion-icon>
@@ -221,5 +207,6 @@
     <script type="módulo" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="../assets/js/app.js"></script>
+    <script src="../assets/js/carrinho.js"></script>
 </body>
 </html>

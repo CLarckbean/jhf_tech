@@ -56,8 +56,9 @@
     cursor: pointer;
 }
 
-.ver-producto .btn:hover {
+.ver-producto .btn:hover, .ver-producto .clicado {
     background-color: var(--cor-btn-hover);
+    color: black;
 }
 
 .ver-producto p {
