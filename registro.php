@@ -22,7 +22,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt->bindParam(':senha', $senha);
 
         if ($stmt->execute()) {
-            echo "Registro bem-sucedido.";
+            // echo "Registro bem-sucedido.";
+            header('location: productos.php');
         } else {
             echo "Erro ao registrar usuário.";
         }

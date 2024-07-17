@@ -1,3 +1,13 @@
+<?php 
+// require_once('login.php');
+if(isset($_SESSION['user_id'])){
+  // header('location: minh.php');
+}
+else{
+  header('location: minha-conta.php');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>

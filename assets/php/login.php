@@ -16,19 +16,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if (password_verify($senha, $row['senha'])) {
             $_SESSION['user_id'] = $row['id'];
             $_SESSION['user_name'] = $row['nome_completo'];
-            header("Location: comprar.php");
-            exit();
+            header('location: carrinho.php');
+            
+            
         } else {
-            echo "Senha incorreta.";
+            echo "Password incorreta.";
+            
         }
     } else {
         echo "Email não cadastrado.";
     }
-
-    $stmt->close();
 }
 
+    $stmt->close();
+
+
 $conn->close();
+
+
 ?>
+
+
 
 

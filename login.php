@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             session_start();
             $_SESSION['usuario_id'] = $user['id'];
             // echo "Login bem-sucedido.";
-            header('location: carrinho.php');
+            header('location: pagamento.php');
 
         } else {
             echo "Senha incorreta.";

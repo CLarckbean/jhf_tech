@@ -46,7 +46,7 @@
                 <p>Blusa de frio manga longa</p>
                 <h1>Compra com desconto</h1>
                 <h4>R$ 777</h4>
-                <form action="" method="post">
+                <form action="carrinho.php" method="post">
                     <select name="" id="">
                         <option value="">Selecione o Tamanho</option>
                         <option value="">P</option>

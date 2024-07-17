@@ -117,9 +117,11 @@
         <!-- END TOTAL VALUE -->
     </div>
     <!-- END OF SHOPPING CART -->
-
+    <form action="pagamento.php" method="post">
     <a href="pagamento.php">
         <button class="btn btn_pay">Fazer Pagamento</button>
     </a>
+    </form>
+    
 
 <?php require_once('footer.php')?>
